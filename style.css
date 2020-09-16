@@ -2,11 +2,6 @@ body {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 140%;
 }
 
 .wrapper {
@@ -34,6 +29,11 @@ body {
 
 .navbar ul li a {
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
     color: white;
     opacity: 0.8;
     align-items: center;
@@ -66,4 +66,64 @@ body {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+.header_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 100px auto 0px auto;
+}
+
+.header_subtitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 35%;
+    margin: 20px auto 0px auto;
+}
+
+.get_started button{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    margin: 30px auto 0px auto;
+    cursor: pointer;
+    border: 1px solid white;
+    background: #00AFDB;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+}
+.get_started button:hover {
+    background: transparent;
+    transition: 0.5s;
+	border: 1px solid white;
+}
+
+
+.socials {
+    width: 170px;
+    margin: 183px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
