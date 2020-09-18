@@ -127,3 +127,61 @@ h1 {
     display: flex;
     transition: 0.8s all;
 }
+
+.rappresent {
+    max-height: 842px;
+    padding: 120px 270px 140px 268px;
+  }
+  .rappresent .rappresent_block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rappresent .rappresent_block .rappresent_block_text {
+    width: 407px;
+    height: 233px;
+    margin-top: 174px;
+  }
+  .rappresent .rappresent_block .rappresent_block_text .rappresent_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    width: 93%;
+  }
+  .rappresent .rappresent_block .rappresent_block_text .rappresent_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4e4e4e;
+    padding: 21px 0 29px 0;
+    letter-spacing: 0.2px;
+  }
+
+.rappresent .rappresent_block .rappresent_block_text .rappresent_btn {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 1px solid white;
+}
+
+.rappresent .rappresent_block .rappresent_block_text .rappresent_btn:hover {
+    background: transparent;
+    transition: 0.5s;
+    border: 1px solid black;
+    color: black;
+}
