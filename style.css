@@ -1,3 +1,7 @@
+strong {
+    font-weight: 600;
+}
+
 .wrapper {
     width: 1600px;
     min-height: 100%;
@@ -48,6 +52,7 @@ h1 {
 }
 
 .navbar ul li:hover a:hover {
+    cursor: pointer;
     border-bottom: 1px #00afdb solid;
     opacity: 1;
     color: #00afdb;
@@ -105,6 +110,7 @@ h1 {
 }
 
 .your_life .your_life_button:hover {
+    cursor: pointer;
     background: transparent;
     transition: 0.5s;
 	border: 1px solid white;
@@ -117,6 +123,7 @@ h1 {
   }
 
 .your_life .your_life_social a:hover {
+    cursor: pointer;
     border-radius: 100%;
     display: flex;
     transition: 0.8s all;
@@ -156,7 +163,7 @@ h1 {
     line-height: 20px;
     color: #4e4e4e;
     padding: 21px 0 29px 0;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1789px;
 }
 
 .rappresent .rappresent_block .rappresent_block_text .rappresent_btn {
@@ -179,6 +186,7 @@ h1 {
 }
 
 .rappresent .rappresent_block .rappresent_block_text .rappresent_btn:hover {
+    cursor: pointer;
     background: transparent;
     transition: 0.5s;
     border: 1px solid black;
@@ -209,7 +217,7 @@ h1 {
 .community_wrapper .community_block .community_title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: #373737;
@@ -303,6 +311,10 @@ h1 {
     justify-content: space-between;
   }
 
+.implement .implement_wrapper .implement_image {
+    margin: 1px 1px 0 1px;
+}
+
 .implement_block {
     width: 407px;
     height: 184px;
@@ -330,7 +342,7 @@ h1 {
     color: #4E4E4E;
     line-height: 149%;
     margin-top: 22px;
-    letter-spacing: 0.1868px;
+    letter-spacing: 0.1668px;
 }
 
 .implement .implement_wrapper .implement_block .implement_btn {
@@ -353,8 +365,79 @@ h1 {
 }
 
 .implement .implement_wrapper .implement_block .implement_btn:hover {
+    cursor: pointer;
     background: transparent;
     transition: 0.5s;
     border: 1px solid black;
     color: black;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    height: 598px;
+    background-image: url('/assets/pexels-christina-morillo-1181675 1.png');
+    background-repeat: no-repeat;
+    margin: -259px 0 0 0;
+}
+
+.subscribe .subscribe_block {
+    width: 406px;
+    height: 104px;
+    margin-top: 217px;
+}
+
+.subscribe .subscribe_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+.subscribe .subscribe_email {
+    width: 406px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+}
+
+.subscribe .subscribe_email input#field {
+    width: 340px;
+    height: 44px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #373737;
+    outline: none;
+}
+
+.subscribe .subscribe_email input[type="email"] {
+    padding: 2px 0 0 24px;
+}
+
+.subscribe_btn {
+    display: inline-block;
+    width: 66px;
+    height: 46px;
+    background: #00AFDB;
+    border: 0;
+    outline: 0;
+    padding: 0;
+}
+
+.subscribe_btn:hover {
+    cursor: pointer;
+    background: transparent;
+    transition: 0.5s;
+    border: 1px solid white;
+    color: white;
 }
