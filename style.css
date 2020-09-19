@@ -175,6 +175,7 @@ h1 {
     color: #FFFFFF;
     background: #00AFDB;
     border: 1px solid white;
+    margin: -1px 0 0 -1px;
 }
 
 .rappresent .rappresent_block .rappresent_block_text .rappresent_btn:hover {
@@ -277,14 +278,83 @@ h1 {
 
 .community_wrapper .community_slider .community_image img {
     padding-right: 30px;
-  }
-  .community_wrapper .community_slider .community_image img:nth-child(2) {
+}
+
+.community_wrapper .community_slider .community_image img:nth-child(2) {
     padding-right: 25px;
-  }
-  .community_wrapper .community_slider .community_image .slider-3 img {
+}
+
+.community_wrapper .community_slider .community_image .slider-3 img {
     height: 244px;
     padding-left: 5px;
-  }
-  .community_wrapper .community_slider .community_image .slider-3 {
+}
+
+.community_wrapper .community_slider .community_image .slider-3 {
     overflow: hidden;
+}
+
+.implement {
+    height: 842px;
+    padding: 120px 378px 140px 268px;
+}
+
+.implement .implement_wrapper {
+    display: flex;
+    justify-content: space-between;
   }
+
+.implement_block {
+    width: 407px;
+    height: 184px;
+    margin-top: 199px;
+}
+
+.implement .implement_block .implement_block_text .implement_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.implement .implement_block .implement_block_text .implement_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 149%;
+    margin-top: 22px;
+    letter-spacing: 0.1868px;
+}
+
+.implement .implement_wrapper .implement_block .implement_btn {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 1px solid white;
+    margin: 28px 0 0 -1px;
+}
+
+.implement .implement_wrapper .implement_block .implement_btn:hover {
+    background: transparent;
+    transition: 0.5s;
+    border: 1px solid black;
+    color: black;
+}
