@@ -65,7 +65,7 @@ h1 {
 
 .your_life {
     height: 744px;
-    background: url("/assets/bg-image-wrapper.png") center center/cover no-repeat;
+    background: url("/webdev/assets/bg-image-wrapper.png") center center/cover no-repeat;
     margin-top: -95px;
 }
 
