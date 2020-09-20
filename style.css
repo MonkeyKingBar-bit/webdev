@@ -5,7 +5,7 @@ strong {
 .wrapper {
     width: 1600px;
     min-height: 100%;
-    margin: -14px auto;
+    margin: 0 auto;
 }
 
 header {
@@ -418,10 +418,12 @@ h1 {
     font-size: 14px;
     color: #373737;
     outline: none;
+    margin-right: 21px;
 }
 
 .subscribe .subscribe_email input[type="email"] {
-    padding: 2px 0 0 24px;
+    padding: 2px 1px 0 24px;
+    
 }
 
 .subscribe_btn {
@@ -432,15 +434,13 @@ h1 {
     border: 0;
     outline: 0;
     padding: 0;
-    margin-left: -22px;
+    margin-left: -45px;
 }
 
 .subscribe_btn:hover {
     cursor: pointer;
-    background: transparent;
+    background: #009cc2;
     transition: 0.5s;
-    border: 1px solid white;
-    color: white;
 }
 
 .subscribe_btn img {
