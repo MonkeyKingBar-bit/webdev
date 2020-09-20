@@ -5,7 +5,7 @@ strong {
 .wrapper {
     width: 1600px;
     min-height: 100%;
-    margin: 0 auto;
+    margin: -14px auto;
 }
 
 header {
@@ -432,6 +432,7 @@ h1 {
     border: 0;
     outline: 0;
     padding: 0;
+    margin-left: -22px;
 }
 
 .subscribe_btn:hover {
@@ -440,6 +441,10 @@ h1 {
     transition: 0.5s;
     border: 1px solid white;
     color: white;
+}
+
+.subscribe_btn img {
+    padding: 2px 0 0 2px;
 }
 
 .download {
@@ -543,7 +548,54 @@ h1 {
 footer {
     height: 29vh;
     background: #000000;
+}
+
+.footer_wrapper {
+    padding: 60px 160px 80px 160px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+  }
+
+.footer_navbar ul {
+    width: 236px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.98;
+    list-style-type: none;
+    color: #ffffff;
+  }
+.footer_wrapper .footer_navbar .divider {
+    font-size: 9px;
+    color: #4e4e4e;
+    padding-top: 4px;
+    font-weight: 900;
+}
+
+.footer_wrapper .footer_navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+.footer_wrapper .footer_navbar li a:hover {
+  cursor: pointer;
+  border-bottom: 1px #00afdb solid;
+  opacity: 1;
+  color: #00afdb;
+}
+
+footer .footer_logo {
+    padding-right: 62px;
+}
+
+.footer_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #818181;
+    padding-top: 2px;
+    padding: 2px 2px 0 0;
 }
