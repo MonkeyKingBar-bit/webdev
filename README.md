@@ -1,7 +1,7 @@
 # webdev
 ## [Deploy:](https://monkeykingbar-bit-webdev.netlify.app/)
 
-Collapse page according to layout:
+Make up page according to layout:
 
 ## [Figma:](https://www.figma.com/file/2Zev0HVCKABbZoAsuWTdcD/webdev_newVersion(19.09)?node-id=1%3A5)
 
